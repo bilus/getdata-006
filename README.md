@@ -4,7 +4,7 @@
 
 This is an introduction to a simple R script running basic cleanup and simplification of results of a research initiative performed at UCI.
 
-For more information see the original [README.txt](README.txt).
+For more information see the original [README.txt](https://github.com/bilus/getdata-006/blob/master/README.md).
 
 ### How to run
 
@@ -16,13 +16,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 2. Extract it to a folder.
 
-3. Copy the [run_analysis.R](run_analysis.R) script to the folder. (Either copy the Raw version of the script from this GitHub repository or clone it from the command line using `git clone https://github.com/bilus/getdata-005.git`.)
+3. Copy the [run_analysis.R](https://raw.githubusercontent.com/bilus/getdata-006/master/run_analysis.R) script to the folder. (Either copy the Raw version of the script from this GitHub repository or clone it from the command line using `git clone https://github.com/bilus/getdata-005.git`.)
 
 4. Load the script into R Studio or run the script from command line. 
 
 *Note: When using R Studio, make sure to set working directory to the script's location (on OS/X, it's "Session" > "Set Working Directory" > "To Source File Location")*
 
-The result is in [clean_data.csv](clean_data.csv).
+The result will be saved to clean_data.csv.
 
 ### Analysis overview
 
@@ -40,5 +40,5 @@ The result is in [clean_data.csv](clean_data.csv).
 
 1. Make column names user-friendly by converting dots to spaces. 
 
-1. Save the resulting data set to [clean_data.csv](clean_data.csv).
+1. Save the resulting data set to clean_data.csv.
 
