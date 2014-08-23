@@ -20,7 +20,7 @@ Unfortunately, due to GitHub limations, this repository isn't self-contained, th
 
 *Note: When using R Studio, make sure to set working directory to the script's location (on OS/X, it's "Session" > "Set Working Directory" > "To Source File Location")*
 
-The result will be saved to clean_data.csv.
+The result will be saved to [tidy_dataset.txt](https://raw.githubusercontent.com/bilus/getdata-006/master/tidy_dataset.txt).
 
 ### Analysis overview
 
