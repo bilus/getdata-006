@@ -42,3 +42,6 @@ The result will be saved to clean_data.csv.
 
 1. Save the resulting data set to clean_data.csv.
 
+### CodeBook for the tidy dataset
+
+The CodeBook is in a [separate file](https://raw.githubusercontent.com/bilus/getdata-006/master/CodeBook.md)
