@@ -10,9 +10,7 @@ For more information see the original [README.txt](https://github.com/bilus/getd
 
 Unfortunately, due to GitHub limations, this repository isn't self-contained, the train/ and test/ directories are deliberately empty and you have to follow this more cumbersome procedure:
 
-1. Download the data:
-
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+1. Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 2. Extract it to a folder.
 
