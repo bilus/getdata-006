@@ -26,19 +26,19 @@ The result will be saved to clean_data.csv.
 
 1. Read in feature and activity labels from "features.txt" and "activity_labels.txt".
 
-1. Read training and test data from the revelant files.
+2. Read training and test data from the revelant files.
 
-1. Clean training & test data.
+3. Clean training & test data.
 
 - Combine the column containing the identifiers of subjects with columns holding the training data and activities. Name the new columns "Subject" and "Activity".
 - Make column labels into valid, descriptive variable names.
 - Select only the columns we're interested in: Subject, Activity, mean and standard deviation.
 
-1. Merge test & training data row-wise.
+4. Merge test & training data row-wise.
 
-1. Make column names user-friendly by converting dots to spaces. 
+5. Make column names user-friendly by converting dots to spaces. 
 
-1. Save the resulting data set to [tidy_dataset.csv](https://raw.githubusercontent.com/bilus/getdata-006/master/tidy_dataset.csv).
+6. Save the resulting data set to [tidy_dataset.csv](https://raw.githubusercontent.com/bilus/getdata-006/master/tidy_dataset.csv).
 
 ### CodeBook for the tidy dataset
 
