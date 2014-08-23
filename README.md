@@ -38,7 +38,9 @@ The result will be saved to clean_data.csv.
 
 5. Make column names user-friendly by converting dots to spaces. 
 
-6. Save the resulting data set to [tidy_dataset.csv](https://raw.githubusercontent.com/bilus/getdata-006/master/tidy_dataset.csv).
+6. Aggregate rows by Subject and Activity.
+
+7. Save the resulting data set to [tidy_dataset.txt](https://raw.githubusercontent.com/bilus/getdata-006/master/tidy_dataset.txt).
 
 ### CodeBook for the tidy dataset
 

@@ -47,7 +47,7 @@ saveAverages <- function(mergedData, filename) {
     ds
   }
   
-  averages <- aggregate(mergedData, by=list(mergedData$Subject, mergedData$Activity), FUN=mean)
+  averages <- suppressWarnings(aggregate(mergedData, by=list(mergedData$Subject, mergedData$Activity), FUN=mean))
   cols <- colnames(averages)[cols != "Activity" & cols != "Subject"]
   averages <- averages[, cols]
   averages <- renameColumn(averages, "Group.1", "Subject")
@@ -80,12 +80,9 @@ cleanTestData <- cleanData(features, testSubjects, testData, activities, testAct
 # Merge test & training data row-wise.
 mergedData <- rbind(cleanTestData, cleanTrainingData)
 
-# Calculate averages by subject and activity. 
-# It's commented out because it's not in the requirements.
-# saveAverages(mergedData, "averages.txt")
+# Aggregate averages by subject and activity. 
+saveAverages(mergedData, "tidy_dataset.txt")
 
-# Drop dots just before saving!
-mergedData <- makeColNamesUserFriendly(mergedData)
-
-# Save the resulting data set.
-write.csv(mergedData, file="tidy_dataset.csv", row.names=FALSE)
+# Save the whole data set.
+# mergedData <- makeColNamesUserFriendly(mergedData)
+# write.csv(mergedData, file="all_data.csv", row.names=FALSE)
