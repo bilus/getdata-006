@@ -1,0 +1,7 @@
+train/
+test/
+backup/
+.RData
+.Rhistory
+averages.txt
+clean_data.txt
