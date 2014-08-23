@@ -4,7 +4,7 @@
 
 This is an introduction to a simple R script running basic cleanup and simplification of results of a research initiative performed at UCI.
 
-For more information see the original [README.txt](https://github.com/bilus/getdata-006/blob/master/README.md).
+For more information see the original [README.txt](https://github.com/bilus/getdata-006/blob/master/README.txt).
 
 ### How to run
 
