@@ -4,5 +4,4 @@ backup/
 .RData
 .Rhistory
 averages.txt
-clean_data.txt
 .DS_Store

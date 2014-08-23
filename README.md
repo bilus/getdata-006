@@ -40,7 +40,7 @@ The result will be saved to clean_data.csv.
 
 1. Make column names user-friendly by converting dots to spaces. 
 
-1. Save the resulting data set to clean_data.csv.
+1. Save the resulting data set to [tidy_dataset.csv](https://raw.githubusercontent.com/bilus/getdata-006/master/tidy_dataset.csv).
 
 ### CodeBook for the tidy dataset
 

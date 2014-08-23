@@ -88,4 +88,4 @@ mergedData <- rbind(cleanTestData, cleanTrainingData)
 mergedData <- makeColNamesUserFriendly(mergedData)
 
 # Save the resulting data set.
-write.csv(mergedData, file="clean_data.csv", row.names=FALSE)
+write.csv(mergedData, file="tidy_dataset.csv", row.names=FALSE)
